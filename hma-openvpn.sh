@@ -268,7 +268,7 @@ echo "- Getting HMA! Pro VPN serverlist..."
 sleep 1
 
 # Download serverlist to temp file
-curl -k -s https://www.hidemyass.com/vpn-config/l2tp/ > $serverlist
+curl -k -s https://www.hidemyass.com/vpn-config/l2tp/ | sort -k 2 > $serverlist
 
 # If no fastest server was specified, ask user to select a server via dialog
 if [[ "$fastestserver" == "" ]] ; then
