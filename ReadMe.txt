@@ -14,7 +14,7 @@
 
 Contents:
 
-* hma-openvpn.sh
+* hma-openvpn.sh version 0.64
 * hma-vpn-old.sh
 * hma-vpn.sh
 
