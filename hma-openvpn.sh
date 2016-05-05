@@ -1,6 +1,6 @@
 #!/bin/bash
 
-scriptversion="0.23"
+scriptversion="0.24"
 serverlist="/tmp/serverlist.txt"
 
 # Save prompt settings, OpenVPN tends to brick the prompt
